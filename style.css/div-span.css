@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+.header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://images.unsplash.com/photo-1543353071-10c8ba85a904?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+
+    
+}
+ul{
+    background-color: red;
+    word-spacing: 1rem;
+    list-style-type: none;
+    text-align: right;
+    
+}
+li{
+    background: linear-gradient(to top,green,orange);
+    
+    
+    
+}
+li,a{
+    display: flex;
+    color: #fff;
+    font-size: 2rem;
+    word-spacing: 5px;
+    
+    }
+li a:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    transition: 0.6s ease;
+    
+    
+}
+.div_red{
+    color: gold;
+    background-color: beige;
+    border: 2px solid gray;
+    border-radius: 2px;
+    margin: 10px;
+    padding: 0;
+    width:500px;
+    
+    border-radius: 1rem;
+}
+.div_blue{
+    color: black;
+    background-color: antiquewhite;
+    border: 2px solid blueviolet;
+    
+    margin: 10px;
+    padding: 0;
+    width: 500px;
+    
+    border-radius: 1rem;
+}
+span{
+    color: darkgoldenrod;
+    text-transform: uppercase;
+    border: 2px solid greenyellow;
+    background-color: hotpink;
+}
+.div_blue:focus,
+.div_blue:hover{
+    display: inline-block;
+}
+.div_red:focus,
+.div_red:hover{
+    display: inline-block;
+}
+img:focus,
+img:hover{
+    display: inline-block;
+    text-decoration: none;
+}
+img{
+   border: 2px dashed lightgray;
+   padding: 0;
+   width: 100%;
+   border-radius: 10px;
+}
+div,img{
+    float: left;
+    width: 150px;
+    height: auto;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.tittle,h1{
+    color: #fff;
+    width: 1000px;
+    font-size: 70px;
+}
+.button{
+    position: absolute;
+    text-align: center;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+button .btn a{
+    background-color: #fff;
+    color: #fff;
+    border: 1px solid #000;
+    padding: 1rem;
+    margin: 5px;
+    width: 150px;
+    text-decoration: none;
+    
+    display: flex;
+    
+    border-radius: 2px;
+    
+}
+
+.btn a:hover{
+    color: blue;
+    background-color: #fff;
+    transition: 0.6s ease;  
+}

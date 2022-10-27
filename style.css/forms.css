@@ -1,0 +1,29 @@
+
+.text{
+    text-decoration: underline;
+    background-color: hotpink;
+    margin : 20px 200px 20px 200px;
+}
+.text-align{
+    text-align: center;
+}
+.card{
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 16px;
+    position: relative;
+    width: 500px;
+    height: 550px;
+    top: 0%;
+    left: 30%;
+    overflow: scroll;
+}
+.card1{
+    background-color: lightcoral;
+    width: 200px;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 16px;
+    
+}

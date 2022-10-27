@@ -1,0 +1,57 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+.header{
+    text-align: right;
+}
+.header ul li a{
+    text-decoration:none ;
+    color: lightslategray;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: 0.6s;
+}
+li{
+    
+    display: inline-block;
+    padding-right: 40px;
+    margin-top: 20px;
+}
+.header ul li a:hover{
+    color: white;
+    background-color: lightslategray;
+    
+    
+}
+.row{
+     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/img/library.jpg);
+     width: 100vh;
+     height: 90vh;
+     top: 25%;
+     left: 25%;
+     /* right: 50%;
+     bottom: 50%; */
+     background-size: cover;
+     position: relative;
+       
+}
+.coloum{
+    color: white;
+    position: relative;
+    top: 50%;
+    left: 0%;
+}
+.text-align{
+    text-align: center;
+}
+p{
+    color: white;
+    /* width: 70%; */
+    padding-top: 20px;
+    font-size: 30px;
+    position: relative;
+    top: 45%;
+    
+}

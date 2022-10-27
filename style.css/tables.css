@@ -1,0 +1,25 @@
+body{
+    background-color: lightslategray;
+}
+table{
+    
+    border: 1px solid blue;
+    border:2px outset  gold;
+}
+th{
+
+    border: 1px solid rgba(11, 11, 26, 0.8);
+}
+td{
+    border: 1px solid rgb(170, 11, 11);
+    border: 2px inset  blueviolet;
+}
+button{
+    color: blue;
+    background-color: burlywood ;
+    transition: 0.5s;
+}
+button:hover{
+    color: brown;
+    background-color: cyan;
+}

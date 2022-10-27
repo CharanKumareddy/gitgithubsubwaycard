@@ -1,0 +1,106 @@
+.flex{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+}
+.card1{
+    border: 1px solid lightgray;
+    background-color: lightblue;
+    border-radius: 16px;
+    width: 320px;
+    padding: 10px;
+    margin: 14px;
+    font-family:Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.card2{
+    border: 1px solid lightgray;
+    background-color: lightblue;
+    border-radius: 16px;
+    width: 320px;
+    padding: 10px;
+    margin: 14px;
+    font-family:Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.card3{
+    border: 1px solid lightgray;
+    background-color: lightblue;
+    border-radius: 16px;
+    width: 320px;
+    padding: 10px;
+    margin: 14px;
+    font-family:Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+.card-img{
+    width: 100%;
+    border-radius: 16px;
+}
+
+.card1:hover{
+    animation-name: card;
+    animation-duration: 300ms;
+    animation-fill-mode: forwards;
+}
+@media screen and (min-width:500px){
+    .flex{
+        display: flex;
+        /* flex-wrap: wrap; */
+        justify-content: center;
+    }
+    .card1{
+        border: 1px solid lightgray;
+        background-color: lightblue;
+        border-radius: 16px;
+        width: 320px;
+        padding: 10px;
+        margin: 14px;
+        font-family:Arial, Helvetica, sans-serif;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+    .card2{
+        border: 1px solid lightgray;
+        background-color: lightblue;
+        border-radius: 16px;
+        width: 320px;
+        padding: 10px;
+        margin: 14px;
+        font-family:Arial, Helvetica, sans-serif;
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+    }
+    .card3{
+        border: 1px solid lightgray;
+        background-color: lightblue;
+        border-radius: 16px;
+        width: 320px;
+        padding: 10px;
+        margin: 14px;
+        font-family:Arial, Helvetica, sans-serif;
+        position: absolute;
+        top: 20%;
+        left: 35%;
+    }
+    .card-img{
+        width: 100%;
+        border-radius: 16px;
+    }
+    
+    .card1:hover{
+        animation-name: card;
+        animation-duration: 300ms;
+        animation-fill-mode: forwards;
+    }
+    
+    
+}

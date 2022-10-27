@@ -1,0 +1,43 @@
+.baground{
+width: 500px;
+height: auto;
+border: 5px solid lightcoral;
+background-color: lightblue;
+position: relative;
+
+}
+.box{
+    border: 2px solid blue;
+    margin: 20px;
+    width: 400px;
+    height: 100px;
+
+}
+.text-align{
+    text-align: center;
+}
+span{
+    color: orangered;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:lightgreen;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.box1{
+    background-color: aqua;
+    padding: 20px;
+    bottom: 20px;
+    left: 20px;
+    
+    
+}
+.box2{
+    background-color: rgb(247, 228, 247);
+    padding: 20px;
+}
+.box3{
+    background-color: blanchedalmond;
+    padding: 20px;
+}

@@ -1,0 +1,25 @@
+body{
+    background-color: blanchedalmond;
+}
+.banner{
+    background-color: lightslategray;
+}
+h1{
+    color: white;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+@media screen and (min-width:560px) {
+    body{
+        background-color: palevioletred;
+    }
+    .banner{
+        background-color: teal;
+    }
+    h1{
+        color: lime;
+    }
+
+    
+}

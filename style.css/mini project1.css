@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    margin: 0.5rem;
+}
+nav{
+    text-decoration: none;
+    margin: 0 auto 1rem;
+    padding: 0;
+    max-width: 600px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 2rem;
+    font-size: 3rem;
+    line-height: 7rem;
+}
+h2{
+    background-color: gold;
+    border-radius: 2rem 2rem 0 0;
+}
+
+li{
+    border-top: 1px solid gray;
+    
+}
+li a{
+    display: block;
+    
+}
+ul{
+    list-style-type: none;
+    
+}
+li a:focus,
+li a:hover{
+    color: aqua;
+    cursor:pointer;
+    background: orange;
+    
+}
+li:last-child a{
+    border-radius: 0 0 2rem 2rem;
+}
