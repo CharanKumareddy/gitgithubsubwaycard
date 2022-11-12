@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.psg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px 100px;
+    color: white;
+}
+.heading{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 40px 100px;
+    color: white;
+}
+.anchor-tag{
+    position: absolute;
+    bottom: 60px;
+    left: 0px;
+    margin: 80px 100px;
+    padding: 5px;
+    text-decoration: none;
+    background-color: white;
+}
+.container1{
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+.psg1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px 50px;
+    color: white;
+}
+.heading1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 40px 50px;
+    color: white;
+}
+.anchor-tag1{
+    position: absolute;
+    bottom: 60px;
+    left: 0px;
+    margin: 80px 50px;
+    padding: 5px;
+    text-decoration: none;
+    background-color: white;
+}
+.burger-card{
+    width: 600px;
+    height: 400px;
+}
+.card-img{
+    width: 100%;
+    border-radius: 16px;
+}
+.pizza-card{
+    width: 600px;
+    height: 400px;
+}
+.flex{
+    display: flex;
+    border: 1px solid lightgray;
+    width: 400px;
+    height: 230px;
+    border-radius: 16px;
+    /* justify-content: center;
+    align-items: center; */
+
+}
+.felx-card1{
+   display: flex;
+   /* align-items: center; */
+}
+.text{
+    flex-direction: column;
+}
+.text p{
+    padding-bottom: 20px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.flex-card-img1{
+    width: 150px;
+    height: 200px;
+    margin-top: 15px;
+    border-radius: 16px;
+    padding: 0px 10px;
+}
+span{
+    font-size: 20px;
+}
+.time{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    /* border: 1px solid black; */
+}
+.six-pm{
+    border: 2px solid black;
+    border-radius: 8px;
+    padding-top: 10px;
+}
+.seven-pm{
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-left: 7px;
+    padding-top: 10px;
+}
+.flex1{
+    display: flex;
+    border: 1px solid lightgray;
+    width: 400px;
+    height: 230px;
+    border-radius: 16px;
+}
+.felx-card2{
+    display: flex;
+    /* align-items: center; */
+ }
+.flex-card-img2{
+    width: 150px;
+    height: 200px;
+    margin-top: 15px;
+    border-radius: 16px;
+    padding: 0px 10px;
+}
+.flex2{
+    display: flex;
+    border: 1px solid lightgray;
+    width: 400px;
+    height: 230px;
+    border-radius: 16px;
+}
+.felx-card3{
+    display: flex;
+    /* align-items: center; */
+ }
+.flex-card-img3{
+    width: 150px;
+    height: 200px;
+    margin-top: 15px;
+    border-radius: 16px;
+    padding: 0px 10px;
+}
+.flex-box{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
