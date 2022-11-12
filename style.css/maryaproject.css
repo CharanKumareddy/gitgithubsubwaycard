@@ -1,0 +1,120 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),transparent),url(/img/images/background.png);
+    flex-wrap: wrap;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 5px 0;
+}
+.img-cart{
+    width: 30px;
+    cursor: pointer;
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+    padding-right: 30px;
+}
+nav ul li{
+    display: inline-block;
+    padding-left: 20px;
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    /* background-color: rgb(239, 115, 65); */
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+nav ul li a:hover{
+    background-color: rgb(253, 146, 162);
+}
+.text-box{
+    position: absolute;
+    left: 10px;
+    bottom: 100px;
+    color: white;
+    margin-left: 30px;
+}
+.text-box h3{
+    font-size: 30px;
+}
+.text-box h1{
+    font-size: 190px;
+    line-height: 160px;
+    margin-left: -10px;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    background-image: url(/img/images/back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+    /* animation-iteration-count: infinite; */
+}
+@keyframes back{
+    100%{
+        background: 2000px 0;
+    }
+}
+.text-box p{
+    font-size: 40px;
+}
+.text-box ul {
+    margin-top: 30px;
+}
+.text-box ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding-right: 30px;
+}
+.text-box ul li a{
+    color: white;
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 12px 23px;
+}
+.text-box .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.row a{
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+.social-icons{
+    position: absolute;
+    bottom: 50px;
+    right: 90px;
+}
+.social-icons img{
+    width: 25px;
+    display: block;
+    margin-bottom: 20px;
+}
