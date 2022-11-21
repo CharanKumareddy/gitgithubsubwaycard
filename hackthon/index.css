@@ -1,4 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Vesper+Libre:wght@500&display=swap');
 *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Vesper Libre', serif;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+}
+.burger-card{
+    width: 630px;
+    border-radius: 16px;
+    position: relative;
+    object-fit: cover;
+}
+.burger-card-img{
+    width: 100%;
+    border-radius: 16px;
+}
+.burger-card-heading{
+    position: absolute;
+    top: 0;
+    margin: 40px 20px;
+    color: white;
+    line-height: 26px;
+}
+.burger-card-heading .psg{
+    font-size: 20px;
+}
+.btn{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 40px 20px;
+    border: none;
+    padding: 0px 3px;
+}
+.pizza-card{
+    width: 630px;
+    border-radius: 16px;
+    position: relative;
+    object-fit: cover;
+    margin-left: 20px;
+}
+.pizza-card-img{
+    width: 100%;
+    border-radius: 16px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    width: 380px;
+    border: 1px solid lightgray;
+    border-radius: 16px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    margin: 80px 20px;
+}
+.flex-card-img{
+    width: 140px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.card-btn{
+    background: none;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    padding: 2px 4px;
+}
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -81,13 +155,13 @@
     width: 400px;
     height: 230px;
     border-radius: 16px;
-    /* justify-content: center;
-    align-items: center; */
+    justify-content: center;
+    align-items: center;
 
 }
 .felx-card1{
    display: flex;
-   /* align-items: center; */
+   align-items: center;
 }
 .text{
     flex-direction: column;
@@ -112,9 +186,9 @@ span{
     align-items: center;
     text-align: center;
     
-    /* border: 1px solid black; */
+    border: 1px solid black;
 }
-.six-pm{
+/* .six-pm{
     border: 2px solid black;
     border-radius: 8px;
     padding-top: 10px;
@@ -131,12 +205,12 @@ span{
     width: 400px;
     height: 230px;
     border-radius: 16px;
-}
-.felx-card2{
+} */
+/* .felx-card2{
     display: flex;
-    /* align-items: center; */
- }
-.flex-card-img2{
+    align-items: center;
+ } */
+/* .flex-card-img2{
     width: 150px;
     height: 200px;
     margin-top: 15px;
@@ -149,12 +223,12 @@ span{
     width: 400px;
     height: 230px;
     border-radius: 16px;
-}
-.felx-card3{
+} */
+/*.felx-card3{
     display: flex;
-    /* align-items: center; */
- }
-.flex-card-img3{
+    align-items: center;
+ }*/
+/*.flex-card-img3{
     width: 150px;
     height: 200px;
     margin-top: 15px;
@@ -166,4 +240,4 @@ span{
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
+} */
