@@ -35,7 +35,9 @@
     left: 0;
     margin: 40px 20px;
     border: none;
+    border-radius: 4px;
     padding: 0px 3px;
+
 }
 .pizza-card{
     width: 630px;
@@ -53,7 +55,7 @@
     justify-content: center;
 }
 .card{
-    width: 380px;
+    width: 340px;
     border: 1px solid lightgray;
     border-radius: 16px;
     margin-top: 40px;
@@ -66,11 +68,20 @@
     padding: 10px;
     border-radius: 20px;
 }
+strong{
+    font-weight:bolder;
+}
 .card-btn{
     background: none;
     border: 1px solid lightgray;
     border-radius: 6px;
     padding: 2px 4px;
+}
+.flex-content{
+    padding-bottom: 0;
+}
+.flex-content .passage{
+    padding-top: 15px;
 }
 /* *{
     margin: 0;
