@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addition App</title>
+    <link rel="stylesheet" href="/Addition App/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Simple Addition Application</h1>
+        <div class="boxes">
+            <input type="text" class="num1" id="num1" readonly><h1>+</h1>
+            <input type="text" class="num1" id="num2" readonly>
+            
+        </div>
+        <input type="text" class="sum" id="sum">
+        <button class="btn" onclick="add()">Add the Number</button>
+        <h1 id="result"></h1>
+
+        
+    </div>
+    <div class="questions-container">
+        <div class="flex-container">
+            <div class="total-questions">
+                <h3>Total Questions</h3>
+                <h1 id="total">0</h1>
+            </div>
+            <div class="correct-answers">
+                <h3>Correct-Answers</h3>
+                <h1 id="correct">0</h1>
+            </div>
+        </div>
+        
+        <div class="total-marks">
+            <h3>Total Marks</h3>
+            <h1 id="score">0</h1>
+        </div>
+    </div>
+
+    
+
+
+    <script src="/Addition App/app.js"></script>
+</body>
+</html>
