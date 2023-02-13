@@ -267,6 +267,7 @@
 }
 .prefers p:hover{
     text-decoration: underline;
+    cursor: pointer;
 }
 .nav-links-1{
     position: relative;

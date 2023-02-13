@@ -1,4 +1,22 @@
-.baground{
+.card{
+    
+    font-size: 27px;
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    border: 1px solid black;
+}
+.card-img{
+    display: flex;
+    justify-content: space-between;
+}
+.text-align{
+    text-align: center;
+}
+
+
+
+/* .baground{
 width: 500px;
 height: auto;
 border: 5px solid lightcoral;
@@ -40,4 +58,19 @@ span{
 .box3{
     background-color: blanchedalmond;
     padding: 20px;
+} */
+
+/* .text{
+    display: inline-block;
+    color: white;
+    width: 100%;
+    text-align: center;
+    background-color: black;
 }
+h2{
+    display: inline-block;
+    color: white;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+} */

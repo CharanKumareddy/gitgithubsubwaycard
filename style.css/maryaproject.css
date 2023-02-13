@@ -11,7 +11,7 @@
     flex-wrap: wrap;
     background-size: cover;
     background-position: center;
-    position: relative;
+    /* position: relative; */
 }
 .logo{
     width: 120px;

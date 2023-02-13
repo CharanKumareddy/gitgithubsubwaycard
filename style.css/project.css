@@ -224,6 +224,7 @@ img:hover{
 .library{
     display: flex;
     justify-content:center;
+    width: 100%;
     margin-top: 30px;
     height: 100vh;
     

@@ -1,4 +1,112 @@
-body{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .card{
+    display: flex;
+    justify-content: center;
+} */
+/* .food-burger-card{
+    border: 1px solid lightgray;
+    width: 786px;
+    border-radius: 16px;
+    margin: 10px auto;
+    background-color: rgb(244, 244, 244);
+} */
+/* .food-card-img{
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 16px;
+    
+}
+.food-title{
+    padding: 10px;
+}
+.food-text{
+    padding: 10px;
+} */
+/* .food-salad-card{
+    border: 1px solid lightgray;
+    width: 420px;
+    border-radius: 16px;
+    margin: 10px;
+    background-color: rgb(244, 244, 244);
+} */
+@media(min-width:1200px){
+    .card{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .food-burger-card{
+        border: 1px solid lightgray;
+        width: 420px;
+        border-radius: 16px;
+        margin: 20px 10px;
+        background-color: rgb(244, 244, 244);
+    }
+    .food-card-img{
+        width: 100%;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 16px;
+    }
+    .food-title{
+        padding: 10px;
+    }
+    .food-text{
+        padding: 10px;
+    }
+    .food-salad-card{
+        border: 1px solid lightgray;
+        width: 420px;
+        border-radius: 16px;
+        margin: 20px 10px;
+        background-color: rgb(244, 244, 244);
+    }
+}
+@media(max-width:586px){
+    .card{
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+    .food-burger-card{
+        border: 1px solid lightgray;
+        /* width: 420px; */
+        border-radius: 16px;
+        margin: 20px 10px;
+        background-color: rgb(244, 244, 244);
+    }
+    .food-card-img{
+        /* width: 100%; */
+        margin: 10px;
+        padding: 10px;
+        border-radius: 16px;
+    }
+    .food-title{
+        padding: 10px;
+    }
+    .food-text{
+        padding: 10px;
+    }
+    .food-salad-card{
+        border: 1px solid lightgray;
+        /* width: 420px; */
+        border-radius: 16px;
+        margin: 20px 10px;
+        background-color: rgb(244, 244, 244);
+    }
+}
+
+
+
+
+
+
+/* body{
     background-color: blanchedalmond;
 }
 .banner{
@@ -22,4 +130,4 @@ h1{
     }
 
     
-}
+} */
