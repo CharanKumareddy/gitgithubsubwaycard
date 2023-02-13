@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card{
+    margin: 25% 30%;
+}
+.nature-card{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.card-img{
+    width: 500px;
+    height: 500px;
+    border-radius: 32px;
+}
+.card-position-left{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+.card-position-right{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    font-size: 30px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 5px 13px;
+}
+.fa-star{
+    color: gold;
+    margin-right: 13px;
+}
+.card-position-bottom{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    font-size: 30px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.text{
+    margin: 20px;
+    font-size: 40px;
+}
+span{
+    font-size: 45px;
+    color: green;
+    margin:5px 20px;
+}
+.text1{
+    font-size: 30px;
+    color: rgb(189, 185, 185);
+}

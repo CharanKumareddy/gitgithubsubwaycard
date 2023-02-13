@@ -1,0 +1,30 @@
+.dark-baground{
+    width: 600px;
+    height: 800px;
+    background-color: black;
+    border-radius: 20px;
+    margin: auto;
+
+}
+.bulb-off-img{
+    width: 150px;
+    display: flex;
+    margin-left: 30%;
+}
+.cat-img{
+    width: 200px;
+    margin-left: 25%;
+}
+.switch-status{
+    margin: 100px 0px 0px 0px;
+    width: 200px;
+    height: 100px;
+    background-color: lightgray;
+    border-radius: 16px;
+    padding: 10px;
+    color: white;
+    margin-left: 25%;
+}
+.text-align{
+    text-align: center;
+}

@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows:90px 90px;
+    
+}
+.cell{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0px;
+    font-size: 28px;
+    
+}
+.cell-1{
+    background-color: brown;
+}
+.cell-2{
+    background-color: blueviolet;
+}
+.cell-3{
+    background-color: goldenrod
+}
+.cell-4{
+    background-color: darkmagenta;
+}

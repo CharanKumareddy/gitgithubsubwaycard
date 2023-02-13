@@ -1,0 +1,11 @@
+.container{
+    margin-top: 40px;
+    text-align: center;
+}
+.btn{
+    background-color: black;
+    color: white;
+    padding: 16px 24px;
+    border: none;
+    border-radius: 10px;
+}

@@ -1,0 +1,83 @@
+.burger-card{
+    width: 420px;
+    border: 1px solid rgb(243, 215, 215);
+    border-radius: 16px;
+    margin: 20px auto;
+    padding: 20px;
+    position: relative;
+}
+.burger-card-heading{
+    position: relative;
+}
+.burger-card-img{
+    width: 100%;
+    border-radius: 16px;
+}
+.ratting{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    text-align: center;
+    color: white;
+}
+.psg{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 40px auto;
+    color: white;
+}
+.offer{
+    text-align: center;
+    background-color: lightsalmon;
+    padding: 10px;
+    font-size: 20px;
+    position: sticky;
+    top: 0;
+}
+.salad-card{
+    width: 420px;
+    border: 1px solid rgb(243, 215, 215);
+    border-radius: 16px;
+    margin: 20px auto;
+    padding: 20px;
+}
+.salad-card-img{
+    width: 100%;
+    border-radius: 16px;
+}
+.nature-card{
+    width: 420px;
+    border: 1px solid rgb(243, 215, 215);
+    border-radius: 16px;
+    margin: 20px auto;
+    padding: 20px;
+}
+.nature-card-img{
+    width: 100%;
+    border-radius: 16px;
+}
+.pizza-card{
+    width: 420px;
+    border: 1px solid rgb(243, 215, 215);
+    border-radius: 16px;
+    margin: 20px auto;
+    padding: 20px;
+}
+.pizza-card-img{
+    width: 100%;
+    border-radius: 16px;
+}
+.btn{
+    background-color: rgb(19, 190, 19);
+    border-radius: 60px;
+    padding: 20px;
+    color: white;
+    font-size: 16px;
+    border: none;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 40px;
+}

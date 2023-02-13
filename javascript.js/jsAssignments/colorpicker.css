@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.main-container {
+    background-color: #ffffff;
+    height: 100vh;
+}
+
+.custom-button-1 {
+    background-color: #e0e0e0;
+    height: 80px;
+    width: 80px;
+    font-size: 12px;
+    border-radius: 8px;
+}
+
+.custom-button-2 {
+    background-color: #6fcf97;
+    height: 80px;
+    width: 80px;
+    font-size: 12px;
+    border-radius: 8px;
+}
+
+.custom-button-3 {
+    background-color: #56ccf2;
+    height: 80px;
+    width: 80px;
+    font-size: 12px;
+    border-radius: 8px;
+}
+
+.custom-button-4 {
+    background-color: #bb6bd9;
+    height: 80px;
+    width: 80px;
+    font-size: 12px;
+    border-radius: 8px;
+}
+
+.background-container {
+    background-color: #222222;
+    height: 50px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.description {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+}

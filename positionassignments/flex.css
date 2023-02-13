@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card{
+    width: 700px;
+    height: 800px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    margin: auto;
+    
+    /* justify-content: space-around; */
+}
+.font{
+    font-size: 40px;
+}
+.card-position{
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.text-size h3 span{
+    color: lightslategray;
+    font-size: 35px;
+}
+h1{
+    font-size: 50px;
+}
+h3 span{
+    color: lightslategray;
+    margin-top: 100px;
+}
+/* .check-in-out-card{
+    padding: 30px;
+    text-align: center;
+    width: 600px;
+    height: 100px;
+    border: 1px solid lightslategray;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-around;
+} */
+/* .check-card{
+   
+} */
+.check-in-out-card{
+    border: 1px solid lightslategray;
+    border-radius: 16px;
+    width: 600px;
+    height: auto;
+    margin: auto;
+    
+}
+.check-in-out{
+    display: flex;
+    justify-content: left;
+    line-height: 30px;
+    
+}
+.check-in{
+    padding: 30px 190px 20px 20px;
+    text-align: left;
+}
+.check-out{
+    border-left: 1px solid lightslategray;
+    text-align: center;
+    padding: 20px;
+    
+}
+.check-guests{
+    border-top: 1px solid lightslategray;
+    padding: 20px 20px;
+    line-height: 30px;
+    
+}
+.nav{
+    /* background-color: tomato; */
+    text-align: center;
+    margin: 40px auto;
+    width: 600px;
+    height: auto;
+    background-color: rgb(241, 30, 76);
+    border-radius: 20px;
+    padding: 20px;
+}
+.nav a{
+    /* background-color: tomato; */
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+    
+}
+.align{
+    text-align: center;
+    font-size: 25px;
+}
+.amount{
+    width: 700px;
+   
+}
+.stay-amount{
+    margin: 40px;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.stay-amount1{
+    text-decoration: underline;
+}
+.service-fees{
+    margin: 40px;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.service-fees1{
+    text-decoration: underline;
+}
+.total{
+    border-top: 1px solid lightslategray;
+    padding: 20px;
+    margin: 0px 30px;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.fa-flag{
+    color: lightgray;
+    margin-left: 40px;
+}
+.report{
+    text-align: center;
+    margin: 30px;
+    font-size: 30px;
+}
+.report a{
+    margin-left: 20px;
+    color: rgb(99, 106, 112);
+}

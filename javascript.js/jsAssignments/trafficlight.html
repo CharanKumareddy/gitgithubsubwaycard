@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic Signals</title>
+    <link rel="stylesheet" href="/javascript.js/jsAssignments/trafficlight.css">
+</head>
+<body>
+    <div class="main-container text-center pb-5 pt-5">
+        <h1 class="heading">Traffic Light</h1>
+        <div class="d-flex flex-row justify-content-center m-5">
+            <div class="d-flex flex-column">
+                <button class="custom-button" id="stopButton" onclick="buttonStop()">Stop</button>
+                <button class="custom-button" id="readyButton" onclick="buttonReady()">Ready</button>
+                <button class="custom-button" id="goButton" onclick="buttonGo()">Go</button>
+            </div>
+            <div class="sub-container">
+                <div class="mini-container" id="stopLight"></div>
+                <div class="mini-container" id="readyLight"></div>
+                <div class="mini-container" id="goLight"></div>
+            </div>
+        </div>
+    </div>
+    <script src="/javascript.js/jsAssignments/trafficlight.js"></script>
+</body>
+</html>

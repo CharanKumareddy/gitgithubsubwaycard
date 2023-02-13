@@ -1,0 +1,40 @@
+.box{
+    width: 160px;
+    height: 160px;
+    background-color: aqua;
+    animation-name: charan;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: backwards;
+}
+@keyframes charan{
+    25%{
+        margin-left: 600px;
+        background-color: brown;
+        border-radius: 25%;
+        transform: rotate(360deg);
+    }
+    50%{
+        margin-top: 600px;
+        background-color: deepskyblue;
+        border-radius: 50%;
+        transform: rotate(360deg);
+    }
+    75%{
+        margin-right: 600px;
+        background-color:tomato;
+        border-radius: 75%;
+        transform: rotate(360deg);
+    }
+    100%{
+        margin-bottom: 600px;
+        background-color: rgb(255, 0, 247);
+        border-radius: 25%;
+        transform: rotate(360deg);
+    }
+    /* 150%{
+        margin-top: 600px;
+        background-color: rgb(167, 233, 124);
+        border-radius: 2%;
+    } */
+}
